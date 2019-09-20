@@ -354,7 +354,7 @@ var m =data.match(pattern);
 var count = 0;
 if(m==null){
 document.getElementById("fn").innerHTML = count + " Words"
-document.getElementById("read_time").innerHTML = '0 mins to read'
+document.getElementById("read_time").innerHTML = '0 min to read'
 }
 else{
 for(var i=0;i<m.length;i++){
@@ -370,7 +370,7 @@ var readTime = Math.round(readTime);
 if(readTime > 1){
     document.getElementById("read_time").innerHTML = readTime + " mins to read"
 }else{
-    document.getElementById("read_time").innerHTML = '1 min read'
+    document.getElementById("read_time").innerHTML = '1 min to read'
 }
 document.getElementById("fn").innerHTML = count + " Words"
 }

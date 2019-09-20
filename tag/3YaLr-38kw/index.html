@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+
 <html>
-  <head lang="zh">
+<head lang="zh">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
@@ -9,7 +9,7 @@
 <meta name="description" content="Code A Life">
 <meta http-equiv="Access-Control-Allow-Origin" content="*">
 
-<title>What? | Eadral@wheremeow </title>
+<title>Eadral@wheremeow </title>
 <link href="https://wheremeow.com/styles/main.css" type="text/css" rel="stylesheet"/>
 <link rel="stylesheet" href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css"/>
 <script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
@@ -48,7 +48,7 @@ function pjax() {
   </head>
 
   <body>
-     <div class="header">
+    <div class="header">
       <div class="logo_title">
 		  
         <div class="title animated fadeInDown">
@@ -237,7 +237,6 @@ var r = 0;
     <div class="main" id="pjax-container">
       <div class="main-inner">
 
-
 <div class="content">
 
 
@@ -245,204 +244,59 @@ var r = 0;
 
 
 
-  <div class="post_page" >
+  <div class="post_list" >
 
+	
 <div class="post">
-  <div class="post_title sm_margin">
-    <h2><a>What?</a>
-
-
-
+  <div class="post_title weaklink">
+    <h2><a href="https://wheremeow.com/post/what">What?</a>
     </h2>
   </div>
-  
-<script>
-function lan(){
-	if (document.getElementById("lan").innerText == "繁"){
-		var s=document.getElementById("tongwenlet_cn");
-		if(s != null){
-		document.body.removeChild(s);
-		}
-		var s = document.createElement("script");
-		s.language = "javascript";
-		s.type = "text/javascript";
-		s.src = "https://git.oschina.net/runningcheese/JiathisQR.js/raw/master/bookmarklet_tw.js";
-		s.id = "tongwenlet_cn";
-		document.body.appendChild(s);
-		document.getElementById("lan").innerHTML = "简"
-	}
-	else if(document.getElementById("lan").innerText == "簡"){
-		var s=document.getElementById("tongwenlet_cn");
-		if(s != null){
-		document.body.removeChild(s);
-		}
-		var s = document.createElement("script");
-		s.language = "javascript";
-		s.type = "text/javascript";
-		s.src = "https://git.oschina.net/runningcheese/JiathisQR.js/raw/master/bookmarklet_cn.js";
-		s.id = "tongwenlet_cn";
-		document.body.appendChild(s);
-		document.getElementById("lan").innerHTML = "繁"
-		}
-}
-
-function change(){	
-    var rand = Math.random()*1+1;
-    var num = window.getComputedStyle(document.getElementsByName("show")[0],undefined).fontSize;
-	num = num.slice(0,-2); 
-    document.getElementById("show").style.fontSize = num - rand +'px';
-}
-</script>
-
-  <div class="post_details">
-    <div class="info"><i class="fa fa-clock-o"></i>
+  <div class="post_content markdown"><div class="p_part"><p></p></div></div>
+  <div class="post_footer">
+    <div class="info weaklink"><i class="fa fa-clock-o"></i>
 <span class="date_info">2019-09-20</span>
-<i class="fa fa-eye"></i>
-
-<span class="date_info"><span id="busuanzi_value_page_pv"></span> Views</span>
 
 <i class="fa fa-bookmark-o"></i>
+	
 <span class="tags_info weaklink">
 	
 	<a href="https://wheremeow.com/tag/3YaLr-38kw" class="tag">Nothing</a>
 
 
+
 </span>
-<i class="fa fa-pencil"></i>
-<span id="fn">
-</span>
-&nbsp
-&nbsp
-<i class="fa fa-clock-o"></i>
-<span id="read_time"></span>
-&nbsp
-&nbsp
-<i class="fa fa-share"></i>
-<a title="QR code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wheremeow.com/post/what"><i class="fa fa-qrcode"></i></a>
-<a title="qq share" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://wheremeow.com/post/what&sharesource=qzone&title=What?&pics=https://blog.blinkstar.cn/images/avatar.png&summary="><i class="fa fa-qq"></i></a>
-<a title="weibo share" target="_blank" href="https://service.weibo.com/share/share.php?url=https://wheremeow.com/post/what&sharesource=weibo&title=What? + " - " + &pic="https://blog.blinkstar.cn/images/avatar.png"><i class="fa fa-weibo"></i></a>
-&nbsp
-&nbsp
-<a id="daxiao" href="javascript:void(0);" onclick="change();" title="Change Text Size"><i class="fa fa-font"></i></a>
-&nbsp
-&nbsp
-<a id="lan" href="javascript:void(0);" onclick="lan();" title="调整简繁体">繁</a>
-</div>
+
+
+    </div>
+
   </div>
 
-  <div class="post_content markdown">
-  &nbsp
-  <img id="mememe" src="//source.unsplash.com/800x400/?arts,weather">
-    <div name="show" id="show">
-	<p class="md_block"><span class="md_line md_line_start md_line_end"><p>Why am I here...</p>
-</span></p></div>
-	<br>
-	<hr>
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-user"></i> Written by <a rel="license" href="/">Eadral@wheremeow </a> </div>	
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-cc"></i> Licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> </div>
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-clock-o"></i> Published on 2019-09-20</div>    
-	 <p class="md_block">
-    <div class="reward"><div class="reward-button" style="font-size:15px">Donate <span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" src="https://wheremeow.com/media/images/alipay.png"><b>Alipay</b> </span> <span class="wechat-code"> <img class="wechat-img" src="https://wheremeow.com/media/images/wechat.png"><b>Wechat</b> </span> </span></div></div>
-<div style="text-align:center;color: #ccc;font-size:14px;">If you think this article is helpful, you can invite the author to have a drink.🥤</div>    
-</p> 
 </div>
+	
+	
+
+<div class="paginator pager pagination" >
+	
+
+	
+
+
+    <div style="clear:both;height:0;"></div>
+  </div>
+
 </div>
 
 
-<script>
-var data=document.getElementById("show").innerText
-var pattern = /[a-zA-Z0-9_\u0392-\u03c9]+|[\u4E00-\u9FFF\u3400-\u4dbf\uf900-\ufaff\u3040-\u309f\uac00-\ud7af]+/g;
-var m =data.match(pattern);
-var count = 0;
-if(m==null){
-document.getElementById("fn").innerHTML = count + " Words"
-document.getElementById("read_time").innerHTML = '0 min to read'
-}
-else{
-for(var i=0;i<m.length;i++){
-	if(m[i].charCodeAt(0)>=0x4E00){
-		count +=m[i].length;
-	}else{
-		count += 1;
-	}
-}
-
-var readTime = count / 250;
-var readTime = Math.round(readTime);
-if(readTime > 1){
-    document.getElementById("read_time").innerHTML = readTime + " mins to read"
-}else{
-    document.getElementById("read_time").innerHTML = '1 min to read'
-}
-document.getElementById("fn").innerHTML = count + " Words"
-}
-</script>
-
-<style type="text/css">
-#mememe {
-	border:3px;
-	border-radius:5px;
-    background-repeat: no-repeat;
-    height: 100%;
-	width: 100%;
-	display: inline-block;
-	border-radius:5px; 
-}
-</style>
-
-<script>
-var link = "" ;
-$("img").each( (i,o) => {
-	var o = $(o);
-	if( o.attr("src").indexOf("sinaimg") > 0 || o.attr("src").indexOf("qpic") > 0 || o.attr("src").indexOf("baidu") > 0 || o.attr("src").indexOf("sinaimg") > 0){
-		o.attr("referrerpolicy","no-referrer");
-		link = o.attr("src");
-		o.attr("src",link);
-	}
-});
-</script>
-
-<div style="width:100%;overflow:hidden">
-
-
-
-</div>
-
-<div class="doc_comments">
-
-          
-			<div id="gitalk-container"></div>
-            <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
-<script>
-  var gitalk = new Gitalk({
-    clientID: '5d7eab12d7a41616c1af',
-    clientSecret: 'b741e47ff6370662c67ec60c26574f8bfb29d335',
-    repo: 'Eadral.github.io',
-    owner: 'Eadral',
-    admin: ['Eadral'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
-</script>
-
-
-          
-			  
-          
-        
-</div>
 
   </div>
 </div>
+
 
 
       </div>
-<div class="toc-container">
-
-</div>
     </div>
-	
+
    <div class="footer">
 <div class="site_footer_wrap"><div class="site_footer">
 
