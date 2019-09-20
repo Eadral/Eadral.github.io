@@ -321,7 +321,7 @@ function change(){
 <a title="weibo share" target="_blank" href="https://service.weibo.com/share/share.php?url=https://wheremeow.com/post/what&sharesource=weibo&title=What? + " - " + &pic="https://blog.blinkstar.cn/images/avatar.png"><i class="fa fa-weibo"></i></a>
 &nbsp
 &nbsp
-<a id="daxiao" href="javascript:void(0);" onclick="change();" title="调整字体大小"><i class="fa fa-font"></i></a>
+<a id="daxiao" href="javascript:void(0);" onclick="change();" title="Change Text Size"><i class="fa fa-font"></i></a>
 &nbsp
 &nbsp
 <a id="lan" href="javascript:void(0);" onclick="lan();" title="调整简繁体">繁</a>
@@ -336,12 +336,12 @@ function change(){
 </span></p></div>
 	<br>
 	<hr>
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-user"></i>本文由<a rel="license" href="/">Wheremeow</a>创作</div>	
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-cc"></i>该文章采用<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。转载请注明出处！</div>
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-clock-o"></i>发布时间为：2019-09-20</div>    
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-user"></i>This article is written by <a rel="license" href="/">Wheremeow</a>. </div>	
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-cc"></i>Licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</div>
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-clock-o"></i>Published on 2019-09-20</div>    
 	 <p class="md_block">
-    <div class="reward"><div class="reward-button">赏 <span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" src="https://wheremeow.com/media/images/alipay.png"><b>支付宝扫码打赏</b> </span> <span class="wechat-code"> <img class="wechat-img" src="https://wheremeow.com/media/images/wechat.png"><b>微信打赏</b> </span> </span></div></div>
-<div style="text-align:center;color: #ccc;font-size:14px;">如果觉得这篇文章对您有帮助，可以请作者喝一杯饮料哦🥤</div>    
+    <div class="reward"><div class="reward-button">Donate <span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" src="https://wheremeow.com/media/images/alipay.png"><b>Alipay</b> </span> <span class="wechat-code"> <img class="wechat-img" src="https://wheremeow.com/media/images/wechat.png"><b>Wechat</b> </span> </span></div></div>
+<div style="text-align:center;color: #ccc;font-size:14px;">If you think this article is helpful, you can invite the author to have a drink.🥤</div>    
 </p> 
 </div>
 </div>
@@ -353,7 +353,7 @@ var pattern = /[a-zA-Z0-9_\u0392-\u03c9]+|[\u4E00-\u9FFF\u3400-\u4dbf\uf900-\ufa
 var m =data.match(pattern);
 var count = 0;
 if(m==null){
-document.getElementById("fn").innerHTML = count + "字"
+document.getElementById("fn").innerHTML = count + "Words"
 document.getElementById("read_time").innerHTML = '0 min read'
 }
 else{
@@ -372,7 +372,7 @@ if(readTime > 1){
 }else{
     document.getElementById("read_time").innerHTML = '1 min read'
 }
-document.getElementById("fn").innerHTML = count + "字"
+document.getElementById("fn").innerHTML = count + "Words"
 }
 </script>
 
@@ -403,6 +403,15 @@ $("img").each( (i,o) => {
 <div style="width:100%;overflow:hidden">
 
 
+
+          <div style="float:left;text-align:left;color:#ccc;font-size:18px;width:50%;">
+            Previous
+            <a href="https://wheremeow.com/post/test">
+              <h3 class="post-title">
+                Test
+              </h3>
+            </a>
+          </div>
 
 </div>
 
